@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BA4FFF1A-6DCF-48EC-8EEA-126877E618A1}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "headphones-market.core.Api", "headphones-market.core.Api\headphones-market.core.Api.csproj", "{F0FC32F2-08D6-48BE-AD0B-7087E9A58E41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8C1C5A65-E716-48AE-834D-93936C2D37C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Headphones.Domain", "Core\Headphones.Domain\Headphones.Domain.csproj", "{5A6E4DA5-742D-441F-9FD5-FD632163E2AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Headphones.Application", "Headphones.Application\Headphones.Application.csproj", "{55ADF138-C821-42E5-81C0-FA9ABF729CA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrestructure", "Infrestructure", "{36A2F492-B185-45B7-BB93-678DBB3D5244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Headphones.Persistence", "Headphones.Persistence\Headphones.Persistence.csproj", "{BA12AA92-1E0F-4B64-81AC-948532793B32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0FC32F2-08D6-48BE-AD0B-7087E9A58E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0FC32F2-08D6-48BE-AD0B-7087E9A58E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0FC32F2-08D6-48BE-AD0B-7087E9A58E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0FC32F2-08D6-48BE-AD0B-7087E9A58E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A6E4DA5-742D-441F-9FD5-FD632163E2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A6E4DA5-742D-441F-9FD5-FD632163E2AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A6E4DA5-742D-441F-9FD5-FD632163E2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A6E4DA5-742D-441F-9FD5-FD632163E2AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55ADF138-C821-42E5-81C0-FA9ABF729CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55ADF138-C821-42E5-81C0-FA9ABF729CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55ADF138-C821-42E5-81C0-FA9ABF729CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55ADF138-C821-42E5-81C0-FA9ABF729CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA12AA92-1E0F-4B64-81AC-948532793B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA12AA92-1E0F-4B64-81AC-948532793B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA12AA92-1E0F-4B64-81AC-948532793B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA12AA92-1E0F-4B64-81AC-948532793B32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A6E4DA5-742D-441F-9FD5-FD632163E2AE} = {8C1C5A65-E716-48AE-834D-93936C2D37C5}
+		{55ADF138-C821-42E5-81C0-FA9ABF729CA8} = {8C1C5A65-E716-48AE-834D-93936C2D37C5}
+		{BA12AA92-1E0F-4B64-81AC-948532793B32} = {36A2F492-B185-45B7-BB93-678DBB3D5244}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C6B3099-85FC-4220-B374-FDA45E6E3160}
+	EndGlobalSection
+EndGlobal
