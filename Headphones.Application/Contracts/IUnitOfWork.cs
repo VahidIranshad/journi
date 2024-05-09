@@ -1,9 +1,7 @@
 ﻿namespace Headphones.Application.Contracts
 {
-    public interface IUnitOfWork 
+    public interface IUnitOfWork
     {
-        IHeadphoneRepository HeadphoneRepository { get; }
+        IHeadphoneRepository HeadphoneRepository { get;  }
     }
-
-
 }

@@ -2,7 +2,7 @@
 
 namespace Headphones.Application.Dtos.HeadphonesDtos
 {
-    internal class HeadphoneCrudDtoValidation : AbstractValidator<HeadphoneCrudDto>
+    public class HeadphoneCrudDtoValidation : AbstractValidator<HeadphoneCrudDto>
     {
         public HeadphoneCrudDtoValidation()
         {
